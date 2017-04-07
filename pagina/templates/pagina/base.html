@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Espaderos&Azurdia</title>
+
+  <link class="circle" rel="shortcut icon" href="{% static 'admin/img/logo.jpg' %}">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="{% static 'admin/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="{% static 'admin/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection">
+
+         
+
+</head>
+
+<body class="grey lighten-4">	
+
+
+  <div id="too" class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h2 class="header col s12 cyan-text  Thin"  
+            style="text-shadow:black 0.1em 0.1em 0.2em;">
+            <img class="circle responsive-img " style=" height: 300px; opacity: 0.7" src="{% static 'admin/img/logo.jpg' %}">
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img  style=" max-width: 180%; height: 600px;" src="{% static 'admin/img/background1.jpg' %}" alt="Unsplashed background img 3">
+    </div>
+  </div>
+
+  <div id="mover" >
+		<nav id="pru" class=" blue-grey darken-4 " role="navigation">
+	    <div class="nav-wrapper container">		
+	    	
+        <a href="#" >
+	    		<img class="circle responsive-img brand-logo right" style=" height: 150%;" src="{% static 'admin/img/logo.jpg' %}">
+	    	</a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse">
+          <i class="material-icons light-blue-text text-lighten-3">
+            menu
+          </i>
+        </a>
+        
+				<ul class="left hide-on-med-and-down" >
+					<li>
+						<a class=" waves-effect waves-light light-blue-text text-lighten-3"  href="#">
+		    				HOME
+		    		</a>
+		    	</li >
+		    	<li >
+						<a class=" waves-effect waves-light light-blue-text text-lighten-3"  href="#">
+		    			NUESTRA FIRMA
+		    		</a>
+		    	</li>
+		    	<li >
+						<a class=" waves-effect waves-light light-blue-text text-lighten-3"  href="#">
+		    			NUESTROS SERVICIOS
+		    		</a>
+		    	</li>
+		    	<li >
+            <a class=" waves-effect waves-light light-blue-text text-lighten-3"  href="#">
+              CONTACTENOS
+            </a>    
+          </li>
+		    </ul>
+			</div>
+		</nav>
+  </div>
+
+
+  <ul id="nav-mobile" class="side-nav">
+    <li>
+      <a class="waves-effect waves-light light-blue-text text-lighten-3 " href="#">
+        HOME
+      </a>
+    </li>
+    <li>
+      <a class="waves-effect waves-light light-blue-text text-lighten-3" href="#">
+        NUESTRA FIRMA
+      </a>
+    </li>
+    <li>
+      <a class="waves-effect waves-light light-blue-text text-lighten-3" href="#">
+        NUESTROS SERVICIOS
+      </a>
+    </li>
+    <li>
+      <a class="waves-effect waves-light light-blue-text text-lighten-3" href="#">
+        CONTACTENOS
+      </a>  
+    </li>         
+  </ul>
+
+
+
+  <div class="container " >
+    <div id="contenido " class="section" >
+
+     {% block content %}
+     {% endblock %}
+
+    </div>
+  </div>
+
+
+
+
+  <footer class="page-footer blue-grey darken-4">
+        
+    <div class="row center">
+      <a class="block-center light-blue-text text-lighten-4">
+        12 calle 15-52 solcaso diagonal 1 torre 2, oficina 100 <br>
+        Guatemala, Guatemala C.A 01010 <br>
+        Teléfono: (502) 5555-6666, Fax: (502) 2222-3333 <br>
+        <a href="https://www.facebook.com/ESPADEROS-AZURDIA-Abogados-y-Notarios-110997322319772/">
+            <img class="circle responsive-img" src="{% static 'admin/img/fb-w.png' %}">  
+        </a>
+        <a href="https://twitter.com/EspaderosyAzurd?lang=es">
+            <img class="circle responsive-img" src="{% static 'admin/img/twt-white.png' %}">  
+        </a>
+      </a>
+    </div>   
+
+    <div class="footer-copyright grey darken-4">
+      <div class="container">
+        <a href="http://www.materializecss.com/"> &copy &reg MIT Materialize</a>
+      </div>
+      <div style="display: none;">
+        Todos los derechos reservados "Mikhail Chopen", Powered by http:/Serialize.com Licencia MIT
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="{% static 'admin/js/init.js' %}"></script>
+  <script src="{% static 'admin/js/materialize.js' %}"></script>
+  <script src="{% static 'admin/js/sticky-kit.js' %}"></script>
+  <script src="{% static 'admin/js/prueba.js' %}"></script>
+  
+  
+  
+
+  </body>
+</html>

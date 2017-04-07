@@ -25,7 +25,7 @@ SECRET_KEY = 'z7q=7)ptvxhix_1n6n#v=_#q2!jg)n%(i2l_z%+mr0$cg(2)7m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['67.205.187.36']
+ALLOWED_HOSTS = ['67.205.187.36','127.0.0.1','192.168.1.57']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'pagina',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +77,7 @@ WSGI_APPLICATION = 'sitiowebuno.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'sitioweb',
+       'NAME': 'sitioweb',
 	'USER': 'chopen',
 	'PASSWORD': 'csem14590',
 	'HOST': 'localhost',
@@ -122,4 +123,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
+STATICFILES_DIRS = (os.path.join(BASE_DIR,'static'),) 
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')

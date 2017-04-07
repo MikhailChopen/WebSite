@@ -1,0 +1,1 @@
+$("#mover").stick_in_parent();
