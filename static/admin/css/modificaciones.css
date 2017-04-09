@@ -1,0 +1,77 @@
+
+
+.fondobody
+{
+	background-color: #000000;
+	/*background-image: url("/static/admin/img/fondo-2.jpg"); 
+	background-repeat: no-repeat; 
+	background-size: cover;*/
+
+}
+
+.parallax-home
+{
+	background-image: url("/static/admin/img/girl1.jpg");   
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size: cover;
+}
+
+.j-vertical
+{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+}
+
+.pad-item
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.j-text
+{
+	text-align: justify;
+}
+
+.opacity-9
+{
+	opacity: 0.9; 
+}
+
+.opacity-8
+{
+	opacity: 0.8; 
+}
+
+.opacity-7
+{
+	opacity: 0.7; 
+}
+
+.opacity-6
+{
+	opacity: 0.6; 
+}
+
+.opacity-5
+{
+	opacity: 0.5; 
+}
+
+.opacity-4
+{
+	opacity: 0.4; 
+}
+
+.opacity-3
+{
+	opacity: 0.3; 
+}
+
+.hide-item
+{
+	display: none;
+}
+

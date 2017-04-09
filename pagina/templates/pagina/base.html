@@ -1,25 +1,22 @@
-
 <!DOCTYPE html>
+
 {% load staticfiles %}
+
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>69</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    
+    <title>69</title>
 
-  <link class="circle" rel="shortcut icon" href="{% static 'admin/img/3-white.png' %}">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="{% static 'admin/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="{% static 'admin/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link class="circle" rel="shortcut icon" href="{% static 'admin/img/3-white.png' %}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="{% static 'admin/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{% static 'admin/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{% static 'admin/css/modificaciones.css' %}" type="text/css" rel="stylesheet" media="screen,projection">  
+  </head>
 
-         
-
-</head>
-
-<body style="background-image: url({% static 'admin/img/fondo-2.jpg' %}); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; ">	
-
-  
-  
+  <body class="grey lighten-3">	
 
 		<nav  class=" blue-grey darken-4 " role="navigation" >
 	    <div class="nav-wrapper container ">		
@@ -35,22 +32,22 @@
         
 				<ul class="left hide-on-med-and-down" >
 					<li>
-						<a class=" waves-effect black-text btn lime"  href="#">
-		    				HOME
+						<a class=" waves-effect black-text btn lime z-depth-5"  href="#">
+		    			HOME
 		    		</a>
 		    	</li >
 		    	<li >
-						<a class=" waves-effect  black-text dropdown-button btn lime" data-beloworigin="true" data-activates="menu1">
+						<a class=" waves-effect  black-text dropdown-button btn lime z-depth-5" data-beloworigin="true" data-activates="menu1">
 		    			SERVICIOS
 		    		</a>
 		    	</li>
 		    	<li >
-						<a class=" waves-effect  black-text btn lime"  href="#">
+						<a class=" waves-effect  black-text btn lime z-depth-5"  href="#">
 		    			CATALOGO WEBSITE
 		    		</a>
 		    	</li>
 		    	<li >
-            <a class=" waves-effect  black-text btn lime"  href="#">
+            <a class=" waves-effect  black-text btn lime z-depth-5"  href="/contacto/">
               CONTACTENOS
             </a>    
           </li>
@@ -60,115 +57,101 @@
 
     <ul id="menu1" class="dropdown-content blue-grey darken-4" >
       <li class="blue-grey darken-4">
-            <a class=" waves-effect  lime-text " >
-              WEB
-            </a>
-          </li>
-          <li class="blue-grey darken-4">
-            <a class=" waves-effect  lime-text "  href="#">
-              ANDROID
-            </a>
-          </li>
-          <li class="blue-grey darken-4">
-            <a class=" waves-effect  lime-text "  href="#">
-              DESKTOP 
-            </a>    
-          </li>
+        <a class=" waves-effect  lime-text " >
+          WEB
+        </a>
+      </li>
+      <li class="blue-grey darken-4">
+        <a class=" waves-effect  lime-text "  href="#">
+          MOBIL
+        </a>
+      </li>
+      <li class="blue-grey darken-4">
+        <a class=" waves-effect  lime-text "  href="#">
+          DESKTOP 
+         </a>    
+      </li>
     </ul>
 
+<ul id="menu2" class="dropdown-content blue-grey darken-4" >
+      <li class="blue-grey darken-4">
+        <a class=" waves-effect  lime-text " >
+          WEB
+        </a>
+      </li>
+      <li class="blue-grey darken-4">
+        <a class=" waves-effect  lime-text "  href="#">
+          MOBIL
+        </a>
+      </li>
+      <li class="blue-grey darken-4">
+        <a class=" waves-effect  lime-text "  href="#">
+          DESKTOP 
+         </a>    
+      </li>
+    </ul>
 
-<div>
-  <ul id="nav-mobile" class="side-nav grey darken-4">
-    <li>
-      <a class="waves-effect waves-light light-blue-text text-lighten-3 " href="#">
-        HOME
-      </a>
-    </li>
-    <li>
-      <a class="waves-effect waves-light light-blue-text text-lighten-3" href="#">
-        NUESTROS SERVICIOS
-      </a>
-    </li>
-    <li>
-      <a class="waves-effect waves-light light-blue-text text-lighten-3" href="#">
-        CATALOGO WEBSITE
-      </a>
-    </li>
-    <li>
-      <a class="waves-effect waves-light light-blue-text text-lighten-3" href="#">
-        CONTACTENOS
-      </a>  
-    </li>         
-  </ul>
-</div>
-
-<div " style="background-image: url({% static 'admin/img/girl1.jpg' %});  height: 350px; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
-
-<div class="container valign-wrapper ">
-  <div class="row " >
-      <div class="col s12 " style="margin-top: 1%; opacity: 0.9; text-align: justify;">
-        <div class="card-panel white-text pink darken-4 lighten-1 flow-text z-depth-5">
-          <span >
-          <h4 class="center-align ">Code 369</h4>
-          I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-          I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in 
-          </span>
-
-        </div>
-      </div>
+    <div>
+      <ul id="nav-mobile" class="side-nav grey darken-4">
+        <li>
+          <a class="waves-effect waves-light light-blue-text text-lighten-3 " href="#">
+            HOME
+          </a>
+        </li>
+        <li>
+          <a class="waves-effect waves-light light-blue-text text-lighten-3 dropdown-button "  data-activates="menu2" href="#">
+            NUESTROS SERVICIOS
+          </a>
+        </li>
+        <li>
+          <a class="waves-effect waves-light light-blue-text text-lighten-3" href="#">
+            CATALOGO WEBSITE
+          </a>
+        </li>
+        <li>
+          <a class="waves-effect waves-light light-blue-text text-lighten-3" href="/contacto/">
+            CONTACTENOS
+          </a>  
+        </li>         
+      </ul>
     </div>
-</div>
-</div>
-
-
   
-    <div class="white-text">
+    <div >
      {% block content %}
      {% endblock %}
-
     </div>
   
-
-
-
-
-  <footer class="page-footer grey darken-4" style="opacity: 0.95; ">
-        
-    <div class="row center">
-      <a class="block-center light-blue-text text-lighten-4">
-        Guatemala, Guatemala C.A 01010 <br>
-        Teléfono: (502) 5555-6666, Fax: (502) 2222-3333 <br>
-        <a href="https://www.facebook.com/ESPADEROS-AZURDIA-Abogados-y-Notarios-110997322319772/">
-            <img class="circle responsive-img" src="{% static 'admin/img/fb-w.png' %}">  
+    <footer class="page-footer grey lighten-2 opacity-9 ">
+          
+      <div class="row center">
+        <a class="block-center black-text flow-text">
+          Guatemala, Guatemala C.A 01010 <br>
+          Teléfono: (502) 5555-6666, Fax: (502) 2222-3333 <br>
+          <a href="#">
+             <img class="circle responsive-img" src="{% static 'admin/img/fb-b.png' %}">  
+          </a>
+          <a href="#">
+            <img class="circle responsive-img" src="{% static 'admin/img/3-black.png' %}">  
+          </a>
         </a>
-        <a href="https://twitter.com/EspaderosyAzurd?lang=es">
-            <img class="circle responsive-img" src="{% static 'admin/img/twt-white.png' %}">  
-        </a>
-      </a>
-    </div>   
+      </div>   
 
-    <div class="footer-copyright black">
-      <div class="container">
-        <a href="http://www.materializecss.com/"> &copy &reg CHOPEN Liciencia MIT </a>
+      <div class="footer-copyright black ">
+        <div class="container">
+          <a href="http://www.materializecss.com/"> &copy &reg CHOPEN Liciencia MIT </a>
+        </div>
+        <div class="hide-item">
+          Todos los derechos reservados "Mikhail Chopen", Powered by http:/Serialize.com Licencia MIT
+        </div>
       </div>
-      <div style="display: none;">
-        Todos los derechos reservados "Mikhail Chopen", Powered by http:/Serialize.com Licencia MIT
-      </div>
-    </div>
-  </footer>
+    </footer>
 
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="{% static 'admin/js/init.js' %}"></script>
-  <script src="{% static 'admin/js/materialize.js' %}"></script>
-  <script src="{% static 'admin/js/sticky-kit.js' %}"></script>
-  <script src="{% static 'admin/js/prueba.js' %}"></script>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{% static 'admin/js/init.js' %}"></script>
+    <script src="{% static 'admin/js/materialize.js' %}"></script>
+    <script src="{% static 'admin/js/sticky-kit.js' %}"></script>
+    <script src="{% static 'admin/js/prueba.js' %}"></script>
   
-  
-  
-
   </body>
 </html>
